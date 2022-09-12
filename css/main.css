@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Light.ttf");
+}
+
+body {
+    font-family: "Open Sans", "Dejavu Sans", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+ol {
+    padding: 0;
+    margin: 0 auto;
+    list-style-position: inside;
+}
+
+img {
+    width: 350px;
+    text-align: center;
+    margin: 0px auto;
+    display: block;
+}
+
+li a {
+    color: green;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+    color: darkgreen;
+}
+
+.container {
+    width: 800px;
+    margin: 0px auto;
+}
+
+.no-mark {
+    list-style-type: none;
+}
+
+.p-small {
+    font-size: 0.85rem;
+}
+
+.p-right {
+    text-align: right;
+}
